@@ -1,0 +1,50 @@
+node_modules
+dist
+.vscode
+
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.iml
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Python packaging
+dist/
+build/
+*.egg-info/
+
+# Environment variables & secrets
+.env
+*.pem
+*.key
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+.cache
+
+# macOS and system files
+.DS_Store
+Thumbs.db
+
+# Docker and deployment
+docker-compose.override.yml
